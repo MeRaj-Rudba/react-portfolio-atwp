@@ -1,5 +1,4 @@
 import React from 'react';
-import img1 from '../img/img1.JPG'
 
 const Introduction = () => {
     
@@ -11,7 +10,7 @@ const Introduction = () => {
                 Hi, I am <strong>MeRaj Rudba</strong>
             </h1>
             <p className="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src={img1} alt="Me smiling" className="intro__img" />
+            <img src='./img/img1.JPG' alt="Me smiling" className="intro__img" />
         </section>
     );
 };

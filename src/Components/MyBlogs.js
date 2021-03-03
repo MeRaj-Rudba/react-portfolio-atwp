@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../img/portfolio-09.jpg'
+
 
 const MyBlogs = () => {
 
@@ -15,7 +15,7 @@ const MyBlogs = () => {
                 <a href="/blogs" class="btn">Read Blogs</a>
             </div>
 
-            <img src={img} alt="" class="about-me__img" />
+            <img src='./img/portfolio-09.jpg' alt="" class="about-me__img" />
         </section>
     );
 };

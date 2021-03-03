@@ -1,10 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 
 
 const Project = () => {
     let { id } = useParams();
-    const [project, setProject] = useState([{
+    const project = {
+        projectID: 'p0002',
+        title: 'Project2',
+        img1: 'https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1',
+        img2: 'https://images.unsplash.com/photo-1533777419517-3e4017e2e15a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D',
+        date: '02-01-2019',
+        client: 'Some Company',
+        technology: 'Mongo, Express, ReactJs, NodeJs',
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi accusamus fuga, ipsa asperiores ipsam ratione, distinctio autem laboriosam accusantium maxime sapiente. Animi sunt, enim quasi reprehenderit quod voluptas sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi accusamus fuga, ipsa asperiores ipsam ratione, distinctio autem laboriosam accusantium maxime sapiente. Animi sunt, enim quasi reprehenderit quod voluptas sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi accusamus fuga, ipsa asperiores ipsam ratione, distinctio autem laboriosam accusantium maxime sapiente. Animi sunt, enim quasi reprehenderit quod voluptas sed.',
+    }
+
+    /**
+     * const [project, setProject] = useState([{
         projectID: '',
         title: '',
         img1: '',
@@ -22,6 +34,7 @@ const Project = () => {
                 }
             }).then(jsonRes => setProject(jsonRes));
     })
+     */
 
     return (
         <div>

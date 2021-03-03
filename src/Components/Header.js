@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import myLogo from "../img/my-logo.png";
+
 
 const Header = (props) => {
     const { toggle, setToggle } = props;
@@ -10,7 +10,7 @@ const Header = (props) => {
     return (
         <header>
             <a href="/#home" class="logo">
-                <img src={myLogo} alt="" />
+                <img src='./img/my-logo.png' alt="" />
             </a >
             <button onClick={handleToggle} class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>

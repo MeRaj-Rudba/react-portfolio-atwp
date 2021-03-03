@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../img/img5.jpg';
 
 const AboutMe = () => {
     return (
@@ -13,7 +12,7 @@ const AboutMe = () => {
                 <a href="https://drive.google.com/uc?id=1ArFwWHkQ0nvLEM3j6HCOH-J-1zqNb6Ex&export=download" class="btn" download="myResume">See Resume</a>
             </div>
 
-            <img src={img} alt="" class="about-me__img" />
+            <img src='./img/img5.jpg' alt="" class="about-me__img" />
         </section>
     );
 };
