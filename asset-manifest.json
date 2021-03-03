@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MeRaj-Rudba/react-portfolio-atwp/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/MeRaj-Rudba/react-portfolio-atwp/static/js/main.05803c1f.chunk.js",
+    "main.js.map": "/MeRaj-Rudba/react-portfolio-atwp/static/js/main.05803c1f.chunk.js.map",
+    "runtime-main.js": "/MeRaj-Rudba/react-portfolio-atwp/static/js/runtime-main.7a9ed631.js",
+    "runtime-main.js.map": "/MeRaj-Rudba/react-portfolio-atwp/static/js/runtime-main.7a9ed631.js.map",
+    "static/js/2.bab43dcd.chunk.js": "/MeRaj-Rudba/react-portfolio-atwp/static/js/2.bab43dcd.chunk.js",
+    "static/js/2.bab43dcd.chunk.js.map": "/MeRaj-Rudba/react-portfolio-atwp/static/js/2.bab43dcd.chunk.js.map",
+    "static/js/3.4c4c373d.chunk.js": "/MeRaj-Rudba/react-portfolio-atwp/static/js/3.4c4c373d.chunk.js",
+    "static/js/3.4c4c373d.chunk.js.map": "/MeRaj-Rudba/react-portfolio-atwp/static/js/3.4c4c373d.chunk.js.map",
+    "index.html": "/MeRaj-Rudba/react-portfolio-atwp/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/MeRaj-Rudba/react-portfolio-atwp/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.bab43dcd.chunk.js.LICENSE.txt": "/MeRaj-Rudba/react-portfolio-atwp/static/js/2.bab43dcd.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/MeRaj-Rudba/react-portfolio-atwp/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a9ed631.js",
+    "static/js/2.bab43dcd.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.05803c1f.chunk.js"
+  ]
+}
